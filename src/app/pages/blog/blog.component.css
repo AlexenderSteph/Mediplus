@@ -1,0 +1,237 @@
+.full-content {
+  height: auto;
+}
+
+.top-content {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(
+      to right,
+      rgba(40, 204, 233, 0.65),
+      rgba(63, 81, 181, 0.65)
+    ),
+    url("https://img.freepik.com/premium-photo/midsection-doctors-shaking-hands-hospital_1048944-16129385.jpg?w=1800");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: "roboto";
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+.home-link {
+  text-decoration: none;
+  color: white;
+}
+
+.middle-content {
+  padding-top: 35px;
+  width: 1200px;
+  margin: auto;
+}
+
+/* .left-column {
+ 
+} */
+
+.left-start {
+  /* Background color for left column */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
+  padding: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.left-comment {
+  /* Background color for left column */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
+  padding: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.left-bottom {
+  /* Background color for left column */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
+  padding: 35px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+
+.example-card {
+  background-color: transparent;
+}
+
+.left-column .card-title {
+  padding: 12px;
+  font-size: 28px;
+}
+
+.example-header-image {
+  background-image: url("https://img.freepik.com/premium-photo/portrait-serious-young-man_1048944-977650.jpg?w=740");
+  width: 45px;
+  height: 45px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.img-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.slight-img {
+  height: 300px;
+  width: 400px;
+  background-size: cover;
+  transition: transform 1s ease;
+}
+
+.slight-img:hover {
+  transform: scale(1.2);
+}
+
+.row-image {
+  width: 100%;
+  height: 180px;
+  background-image: linear-gradient(
+      to right,
+      rgba(40, 204, 233, 0.9),
+      rgba(63, 81, 181, 0.9)
+    ),
+    url("https://img.freepik.com/premium-photo/midsection-doctors-shaking-hands-hospital_1048944-16129385.jpg?w=1800");
+  background-size: cover;
+  color: white;
+}
+
+.example-header-image {
+  /* background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg'); */
+  background-size: cover;
+}
+
+.img-1 {
+  background-image: url("https://img.freepik.com/premium-photo/beautiful-portrait-young-modern-woman_812426-110432.jpg?w=826");
+}
+
+.img-2 {
+  background-image: url("https://img.freepik.com/premium-photo/smiling-europan-middleaged-man-casual-clothes-white-background_81262-3300.jpg?w=826");
+}
+
+.img-3 {
+  background-image: url("https://img.freepik.com/premium-photo/beautiful-woman-created-with-artificial-intelligence-elegant-sexy-beautiful-blonde_960020-630.jpg?w=826");
+}
+
+.mat-flat-button-style {
+  font-size: 18px;
+  border-radius: 0;
+  justify-content: center;
+  padding: 10px;
+}
+
+.icon-style {
+  font-size: 20px;
+}
+
+/**************** RIGHT COLUMN STUFF ***************/
+
+.search-box {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.search-icon {
+  background-color: #3f51b5; /* Arrière-plan noir */
+  color: white; /* Couleur du texte blanc */
+  padding: 5px; /* Ajoute un peu d'espace autour de l'icône */
+  border-radius: 50%; /* Pour obtenir un cercle */
+}
+
+.blog-links {
+  /* Background color for left column */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
+  padding: 35px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.right-h3 {
+  font-size: 18px;
+  font-weight: 600;
+  border-left: 4px solid #3f51b5;
+  padding-left: 5px;
+  color: #333;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 10px;
+  color: #333;
+  font-size: 14px;
+  transition: transform 1s ease;
+}
+
+ul li:hover {
+  transform: translateX(8px);
+  color: #3f51b5;
+}
+
+.post-links {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
+  padding: 35px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 14px;
+  color: #2c2d3f;
+  font-weight: 500;
+  transition:color 0.3s ease;
+}
+
+h5:hover{
+  color: #3f51b5;
+  cursor: pointer;
+}
+
+
+
+
+.post-img {
+  width: 80px;
+  height: 70px;
+  background-size: cover;
+}
+
+.tags{
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow */
+  padding: 35px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.tags-btn{
+  color:#333;
+  background: #F6F7FB;
+  font-size: 13px;
+  transition: background-color 0.5s ease;
+}
+
+.tags-btn:hover{
+  background-color: #3f51b5;
+}
+

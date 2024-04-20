@@ -1,0 +1,100 @@
+<div class="full-content">
+    <div class="top-content">
+        
+            <h2>Contact Us</h2>
+        <p>
+            <a href="#" class="home-link">Home</a>&#9205; <span>Contact</span>
+        </p>
+    </div>
+    <div class="middle-content">
+        <!-- template.component.html -->
+<div fxLayout="row" fxLayoutGap="10">
+    <!-- Colonne de gauche -->
+    <div fxFlex="50" class="left-content">
+      
+    </div>
+  
+    <!-- Colonne de droite -->
+    <div fxFlex="50" fxLayout="column" fxLayoutGap="20px">
+      <form fxLayout="column" fxLayoutGap="20px">
+        <!-- Première ligne -->
+        <div fxLayout="row" fxLayoutGap="20px">
+          <mat-form-field fxFlex="50">
+            <input matInput placeholder="Name">
+          </mat-form-field>
+          <mat-form-field fxFlex="50">
+            <input matInput placeholder="Email">
+          </mat-form-field>
+        </div>
+  
+        <!-- Deuxième ligne -->
+        <div fxLayout="row" fxLayoutGap="20px">
+          <mat-form-field fxFlex="50">
+            <input matInput placeholder="Phone">
+          </mat-form-field>
+          <mat-form-field fxFlex="50">
+            <input matInput placeholder="Subject">
+          </mat-form-field>
+        </div>
+  
+        <!-- Troisième ligne -->
+        <mat-form-field>
+          <textarea matInput placeholder="Your Message" rows="5"></textarea>
+        </mat-form-field>
+  
+        <!-- Quatrième ligne -->
+        <button mat-raised-button color="primary" type="button">Send</button>
+  
+        <!-- Cinquième ligne -->
+        <div fxLayout="row">
+          <mat-radio-group>
+            <mat-radio-button value="option1" color="primary">Do you want to subscribe to our newsletter? </mat-radio-button>
+          </mat-radio-group>
+        </div>
+      </form>
+    </div>
+  </div>
+    </div>
+    <div class="bottom-content">
+      <div fxLayout="row" fxLayoutGap="10px">
+        <mat-card fxFlex="33%" class="card">
+          <mat-card-content fxLayout="row" fxLayoutGap="10px" class="card">
+            <div class="icon" fxFlex="30">
+             <mat-icon class="icon">phone</mat-icon>
+            </div>
+            <div class="content" fxFlex="50">
+              <h3>+(237) 6978 88535</h3>
+              <p>info&#64;medipluscorporation.com</p>
+            </div>
+          </mat-card-content>
+        </mat-card>
+        <!-- Répétez cette structure deux fois de plus -->
+        <mat-card fxFlex="33%" class="card">
+          <mat-card-content fxLayout="row" fxLayoutGap="10px" class="card">
+            <div class="icon" fxFlex="30">
+             <mat-icon class="icon">location_on</mat-icon>
+            </div>
+            <div class="content" fxFlex="50">
+              <h3>Douala, B'sadi</h3>
+              <p>Rond Point Maetur</p>
+            </div>
+          </mat-card-content>
+        </mat-card>
+        <!-- Répétez cette structure deux fois de plus -->
+        <mat-card fxFlex="33%" class="card">
+          <mat-card-content fxLayout="row" fxLayoutGap="10px" class="card">
+            <div class="icon" fxFlex="30">
+             <mat-icon class="icon" >access_time</mat-icon>
+            </div>
+            <div class="content" fxFlex="50">
+              <h3>Mon - Sat : 8  - 5 </h3>
+              <p>Sunday Closed</p>
+            </div>
+          </mat-card-content>
+        </mat-card>
+        <!-- Répétez cette structure deux fois de plus -->
+      </div>
+    </div>
+</div>
+
+

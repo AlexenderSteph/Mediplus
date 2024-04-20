@@ -1,0 +1,97 @@
+
+.full-content{
+    height: auto;
+    width: 100%;
+}
+
+
+.top-content{
+    width:100%;
+    height:200px;
+    background-image:linear-gradient(to right, rgba(40, 204, 233, 0.650), rgba(63, 81, 181, 0.650)), url('https://img.freepik.com/premium-photo/midsection-doctors-shaking-hands-hospital_1048944-16129385.jpg?w=1800');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color:white;
+    font-family:'roboto';
+    font-size:25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.home-link{
+    text-decoration: none;
+    color:white;
+}
+
+.middle-content{
+    width:1000px;
+    margin:auto;
+    margin-top: 60px;
+    padding:15px;
+    border-radius:10px;
+    background-color:#ebebeb;
+    box-shadow: 5px 5px 5px #a7a7a76b;
+}
+
+
+
+
+
+
+.left-content{
+    background-image:linear-gradient(to bottom right,rgba(40, 204, 233, 0.500), rgba(63, 81, 181, 0.500)), url('https://img.freepik.com/free-vector/hand-drawn-doctor-cartoon-illustration_52683-135095.jpg?w=740');
+    background-size: contain;
+    border-radius:5px 0 0 5px;
+}
+
+
+.bottom-content{
+    padding-top:35px;
+    width: 1100px;
+    margin:auto;
+    padding-bottom:35px;
+
+}
+
+.card {
+    background-color: #3f51b5; /* Couleur de fond primaire */
+    border-radius: 5px; /* Border radius */
+    color: white; /* Couleur du texte */
+    transition: transform 1s ease;
+  }
+
+  .card:hover{
+    transform: translateY(-10px); 
+  }
+
+  .icon{
+    font-size: 54px;
+    overflow: visible;
+    align-items: center;
+  }
+
+h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

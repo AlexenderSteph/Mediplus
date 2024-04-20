@@ -1,0 +1,278 @@
+/********************* **********************************/
+
+.full-content{
+    height:auto;
+    width:100%;
+    color:#2C2D3F;
+    position:relative;
+}
+
+.middle-content{
+    height:auto;
+    width:100%;
+    color:#2C2D3F;
+    position:relative;
+}
+
+
+
+/********************* **********************************/
+
+.top-part{
+    margin-bottom:50px;
+}
+
+.top-banner{
+    background-image:linear-gradient(to bottom right, rgba(40, 204, 233, 0.3), rgba(63, 81, 181, 0.3)), url('https://img.freepik.com/premium-photo/portrait-multicultural-medical-team-standing-hospital-corridor-generative-ai_396607-16482.jpg?w=1380');
+    height:500px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:35px;
+}
+
+h2{
+   font-size: 38px;
+   font-weight: 700;
+   line-height: 42px; 
+   color:#2C2D3F;
+   text-align:left;
+}
+
+h3{
+    padding-top:25px;
+    color:#2C2D3F;
+    font-weight:600;
+    font-size:21px;
+}
+
+p{
+    font-size:15px;
+    color:#888;
+    margin-top:15px;
+    line-height:24px;
+    font-weight:400;
+}
+
+.appointment-btn{
+transition:background-color 0.5s ease;
+}
+
+.appointment-btn:hover{
+    background-color: #2C2D3F;
+}
+
+.contact-btn{
+    background-color: #2C2D3F;
+    transition:background-color 0.5s ease;
+    color:white;
+}
+
+.contact-btn:hover{
+    background-color:#3f51b5;
+}
+
+.pointers{
+    position:absolute;
+}
+
+.pointer-left{
+   position:absolute;
+    top:250px;
+    left:10px;
+}
+
+.pointer-right{
+    position:absolute;
+    top:250px;
+    right:10px;
+}
+
+
+.card-box{
+   width:1000px;
+    margin:auto;
+    height:250px;
+}
+
+.card-box{
+   margin-top:-130px;
+}
+
+.example-card:hover{
+    transform: translateY(-12px); 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.example-card, .mat-card-subtitle{
+    background-color:#3f51b5 !important;
+    color:white;
+    transition: all 0.5s ease;
+    width:auto;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+
+
+.top-content {
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(
+        to right,
+        rgba(40, 204, 233, 0.65),
+        rgba(63, 81, 181, 0.65)
+      ),
+      url("https://img.freepik.com/premium-photo/midsection-doctors-shaking-hands-hospital_1048944-16129385.jpg?w=1800");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: "roboto";
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+
+
+.icon-style{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    background-color:#3f51b509;
+    align-items:center;
+    border:2px solid white;
+    transition: all 0.5s ease;
+}
+
+
+.icon-style:hover{
+color: #3f51b5;
+background-color: white;
+}
+
+h4{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+h5{
+  font-size: 15px;  
+}
+
+
+.icon-style-reverse{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    background-color:#3f51b500;
+    align-items:center;
+    border:0.2px solid #3f51b559;
+    transition: all 0.5s ease;
+    color: #3f51b5;
+}
+
+.icon-style-reverse:hover{
+    color: white;
+    background-color: #3f51b5;
+}
+
+
+
+.lower-content{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(
+        to right,
+        rgba(40, 204, 233, 0.65),
+        rgba(63, 81, 181, 0.65)
+      ),
+      url("https://img.freepik.com/premium-photo/patient-lying-hospital-bed-surrounded-by-medical-equipment-monitors-receiving-care-from_979520-38460.jpg?w=1060");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: "roboto";
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+.btn-contact{
+    background-color: white;
+    color:#3f51b5;
+    transition: all 0.5s ease;
+}
+
+.btn-contact:hover{
+    background-color: #3f51b5;
+    color: white;
+    border: 0.2px solid white;
+}
+
+
+.btn-learn{
+    background-color: #3f51b500;
+    color:white;
+    border: 0.2px solid white;
+    transition: all 0.5s ease;
+}
+
+.btn-learn:hover{
+    background-color: white;
+    color:#3f51b5;
+}
+
+
+.next-lower-content{
+    background-color:#f5f5f5;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.card-subtitle{
+    padding-left:30px;
+    font-size: 21px;
+    color: #2C2D3F;
+    font-weight: 500;
+    padding-bottom:12px;
+}
+
+.card-title{
+    font-size: 36px;
+    font-weight: 600;
+    padding-left:30px;
+    color:#3f51b5;
+}
+
+.example-card-style{
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+.example-card-style:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
+.next-next-lower-content{
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.form-style{
+    border: 4px solid #f5f5f5;
+    padding: 25px;
+    background-color: #f5f5f5;
+}
